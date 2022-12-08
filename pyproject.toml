@@ -1,0 +1,13 @@
+# Documentation on setuptools & pyproject.toml - https://setuptools.pypa.io/en/latest/userguide/index.html
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oracle_code"
+version = "1.0.0"
+description = "Code for working with an oracle database"
+readme = "README.md"
+authors = [
+    {name = "James Midkiff", email = "james.midkiff@phila.gov"}
+    ]
